@@ -83,11 +83,12 @@ const Card = styled.div`
   }
 
   p {
-    position: absolute
-    z-index: 20;
+    position: absolute;
+    z-index: 10;
     left: 50%;
     bottom: 0%;
-    color: black;
+    transform: translate(-50%, 0%);
+    color: white;
     width: 100%;
     text-align: center;
     font-weight: 600;
